@@ -9,6 +9,7 @@ const CollectionItem = ({id, name, price,imageUrl}) => {
       <div className="collection-footer">
   <span className="name">{name}</span>
   <span className="price">{price}</span>
+  <span className="id"> {id} </span>
 
       </div>
 
@@ -16,4 +17,4 @@ const CollectionItem = ({id, name, price,imageUrl}) => {
   );
 };
 
-export default CollectionItem
+export default CollectionItem;
