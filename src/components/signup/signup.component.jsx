@@ -22,7 +22,7 @@ class SignUp extends React.Component{
     const { displayName, email, password, confirmPassword} = this.state;
 
     if ( password!== confirmPassword ){
-      alert('password dont match ')
+      alert('password does not match ')
       return;
     }
     try{
@@ -78,7 +78,7 @@ class SignUp extends React.Component{
          <FormInput
         type='password'
         name='confirmPassword'
-        value={confirmPassword} 
+        value={confirmPassword}  
         onChange={this.handleChange}
         label='Confirm Password'
         required/>
