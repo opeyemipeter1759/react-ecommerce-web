@@ -1,1 +1,4 @@
 [1219/190957.778:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1219/215338.491:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1220/124325.602:ERROR:process_info.cc(359)] UncheckedAllocate
+[1220/124326.650:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\user\AppData\Local\Google\Chrome\User Data\Crashpad\reports\25eb2cc3-2feb-4669-abc6-809f8a1b39ea.dmp: The process cannot access the file because it is being used by another process. (0x20)
