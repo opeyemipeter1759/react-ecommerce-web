@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import './signin-signup.scss';
 
 import SignIn from '../../components/signin/sign-in.component';
