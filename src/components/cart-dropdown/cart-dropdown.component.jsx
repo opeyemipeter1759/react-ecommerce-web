@@ -4,7 +4,7 @@ import CustomButton from '../custom-button/custom-buttton.component';
 import CartItem from '../cart-item/cart.component'
 import './cart-dropdown.styles.scss'
 
-const CartDropDown = (cartItems)=>(
+const CartDropDown = ({cartItems})=>(
   <div className="cart-dropdown">
     <div className="cart-items">
       {
